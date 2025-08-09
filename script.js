@@ -5,8 +5,8 @@ document.getElementById("loginForm").addEventListener("submit", function(e) {
 
   if (username === "SOS" && password === "Kingpin") {
     alert("Login successful! Redirecting...");
-    window.location.href = "signals.html"; // Replace with your signals page
+    window.location.href = "signals.html"; // Change this later
   } else {
-    alert("Wrong username or password!");
+    alert("Invalid username or password!");
   }
 });
